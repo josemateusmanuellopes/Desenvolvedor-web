@@ -1,0 +1,389 @@
+body,
+html {
+   margin: 0;
+   height: 100%;
+   font: 16px "lato", "sans-serif";
+
+}
+
+#Principal{
+   margin-top: -16px;
+   background: url(../paralax/imagem/preta.png) repeat-x;
+   background-attachment: fixed;
+
+
+
+
+}
+
+.contacto a {
+   position: relative;
+   text-transform: uppercase;
+   color: white;
+   margin-left: 1100px;
+   top: 10px;
+   font-size: 13px;
+}
+
+/* cabecalho*/
+
+header {
+   background: white;
+   height: 3%;
+
+
+
+}
+
+header img {
+   position: relative;
+   margin-left: 150px;
+
+}
+
+nav {
+   display: block;
+   float: right;
+   margin-right: 100px;
+   margin-top: 1%;
+
+}
+
+nav ul li {
+   float: left;
+   padding: 5px;
+   margin-left: 30px;
+   text-transform: uppercase;
+}
+
+nav ul li a {
+   color: rgb(40, 39, 39);
+   text-decoration: none;
+   text-transform: uppercase;
+}
+
+nav ul li a:hover {
+   color: brown;
+}
+
+nav ul li:hover {
+   border-bottom: 4px solid black;
+   border-radius: 10px;
+
+}
+
+/* conteudo*/
+
+div#conteudo {
+   height: 1000px;
+}
+
+div#caixa1 {
+   width: 100%;
+   height: 60%;
+   background-image: url(../paralax/imagem/imagem3.jpg);
+   background-attachment: fixed;
+
+}
+
+div#caixa2 {
+   margin-top: -30px;
+   width: 100%;
+   height: 16%;
+background-image: url(../paralax/imagem/cabecalho\ abstrato.jpg);
+
+}
+
+div#caixa2 p {
+   position: relative;
+   text-align: center;
+   color: white;
+   text-transform: uppercase;
+   font-size: 30px;
+   top: 30%;
+   text-indent: 2px;
+
+}
+
+div#caixa3 {
+   width: 100%;
+   height: 40%;
+
+}
+
+div#caixa3 p {
+   font-family: 'Times New Roman';
+   position: relative;
+   top: 10%;
+   text-align: justify;
+   font-size: 18px;
+   color: rgb(75, 75, 75);
+   padding: 10px 80px 10px 80px;
+   line-height: 1.2em;
+
+
+}
+
+div#caixa4{
+   width: 100%;
+   height: 40%;
+   background: url(../paralax/imagem/imagem2.jpg) no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+
+div#caixa5 {
+   width: 100%;
+   height: 60%;
+   text-align: center;
+}
+
+div#caixa5 h1 {
+   padding-top: 80px;
+   color: rgb(75, 75, 75);
+
+}
+
+div#caixa5 p { 
+   text-align: justify;
+   padding: 40px 80px 10px 80px;
+   color: rgb(75, 75, 75);  }
+  
+
+div#noticia {
+   padding: 30px;
+   margin: 40px;
+   display: flex;
+   flex-direction: row-reverse;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+div#esquerda,
+div#centro,
+div#direita {
+   border-radius: 10px;
+   width: 300px;
+   height: 200px;
+   margin: 10px;
+   background-color: rgb(197, 191, 191);
+}
+
+div#esquerda p,
+div#centro p,
+div#direita p {
+   color: rgb(5, 4, 4);
+   text-align: justify;
+   padding: 0px;
+   margin: 0px;
+   margin-top: 50px;
+   padding: 0px 5px 0px 5px;
+}
+
+div#esquerda img,
+div#centro img,
+div#direita img {
+   width: 70px;
+   height: 50px;
+   padding: 10px;
+   border-radius: 300px;
+}
+
+div#esquerda:hover,
+div#centro:hover,
+div#direita:hover {
+   width: 300px;
+   height: 200px;
+   margin: 10px;
+   background: url(https://br.freepik.com/fotos-gratis/fundo-abstrato-dos-blocos-de-voronoi-extrudados-parede-corporativa-limpa-com-luz-minima-ilustracao-3d-da-superficie-geometrica-deslocamento-de-elementos-poligonais_11221128.htm#query=papel%20parede&position=0&from_view=keyword&track=ais);
+   border: 1px solid black;
+}
+
+div#esquerda p:hover,
+div#centro p:hover,
+div#direita p:hover {
+   color: black;
+
+}
+
+div#caixa6 {
+   position: relative;
+   width: 100%;
+   height: 50%;
+   background: url(../paralax/imagem/imagem2.jpg);
+   background-attachment: fixed;
+   background-size: cover;
+
+}
+
+div#caixa6 p {
+   padding: 15px;
+   font-family: 'Times New Roman';
+   font-size: 40px;
+   position: absolute;
+   margin-left: 700px;
+   margin-top: 140px;
+   width: 500px;
+   text-transform: uppercase;
+   color: white;
+   background: rgb(5, 4, 4, 0.5);
+
+}
+
+div#caixa7 {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: row-reverse;
+   flex-wrap: nowrap;
+   justify-content: center;
+}
+
+div#estagio,
+div#estagio1 {
+   border-radius: 10px;
+   box-shadow: 10px 10px 10px 5px rgb(40, 39, 39);
+   padding: 30px;
+   margin: 120px 15px;
+   width: 350px;
+   height: 350px;
+   
+
+}
+
+div#estagio:hover,
+div#estagio1:hover {
+   border-radius: 10px;
+   box-shadow: 10px 10px 10px 5px rgb(171, 91, 91);
+   padding: 30px;
+   margin: 120px 15px;
+   width: 350px;
+   height: 350px;
+
+}
+
+div#estagio p,
+div#estagio1 p {
+   width: 290px;
+   margin-top: -20px;
+   text-align: justify;
+   padding: 0px 5px 0px 30px;
+}
+
+div#estagio h1,
+div#estagio1 h1 {
+   font-size: 18px;
+   margin-top: -10px;
+   padding-bottom: 40px;
+   text-align: center;
+
+
+}
+
+div#estagio img,
+div#estagio1 img {
+   width: 40%;
+   height: 40%;
+   border-radius: 300px;
+}
+
+div#caixa8 {
+   width: 100%;
+   height: 40%;
+   background: url(../paralax/imagem/cabecalho\ abstrato.jpg);
+   display: flex;
+   flex-direction: row-reverse;
+   flex-wrap: nowrap;
+   justify-content: center;
+
+}
+
+div#caixa8 p{
+   position: absolute;
+   padding: 15px;
+   font-family: 'Times New Roman';
+   font-size: 20px;
+   margin-left: 0px;
+   margin-top: 70px;
+   width: 600px;
+    font-size: 25px;
+   color: white;
+   background: rgba(27, 26, 26, 0.5);
+}
+div#caixa8 a{
+   text-align: center;
+   position: absolute;
+   padding: 15px;
+   text-transform: uppercase;
+   font-size: 20px;
+   margin-left: 0px;
+   margin-top:0px;
+   width: 500px;
+    font-size: 25px;
+   color: white;
+   text-decoration: none;
+   background: rgba(27, 26, 26, 0.2);
+
+     }
+div#caixa9{
+   width: 100%;
+   height:10%;
+   background: red;
+}
+
+footer{
+     width: 100%;
+     height:60%;
+     background: rgb(37, 36, 36);
+     display: flex;
+     flex-direction:row;
+     flex-wrap: nowrap;
+     justify-content: center;
+
+   
+}
+footer div#sociais, footer div#indereco, footer div#web, footer div#links{
+   width: 250px;
+   height:200px;
+   padding: 10px;
+   margin:80px 10px 0px 0px;
+  
+   
+}
+  footer div section h2{
+   font-size: 15px;
+   text-transform: uppercase;
+      color: yellow;
+      margin-right: 60px;
+  }
+
+  footer div#indereco section p, a, div#web p, div#links p{
+   color: white;
+   padding: 10px 5px 0px 3px;
+   text-align: justify;
+   text-transform: lowercase;
+   margin-top: 20px;
+   line-height: 1.8em;
+   list-style: none;
+  }
+  strong{
+   text-transform: uppercase;
+  }
+div#links p{
+   line-height: 3em;
+   font-size:17px;
+   
+}
+footer a{
+   color: white ;
+   text-decoration: none;
+}
+div#sociais section a{
+    margin-right: 60px;
+}
+div#sociais section a img:hover{
+   background: yellow;
+   border-radius: 10px;
+
+}
